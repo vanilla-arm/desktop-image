@@ -4,7 +4,7 @@ vibversion: 1.1.0
 
 stages:
 - id: build
-  base: ghcr.io/vanilla-os/core:latest
+  base: ghcr.io/vanilla-arm/core:snapshot
   addincludes: true
   singlelayer: false
   labels:
